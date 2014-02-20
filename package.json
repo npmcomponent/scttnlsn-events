@@ -1,13 +1,15 @@
 {
-  "name": "events-component-2",
+  "name": "scttnlsn-events",
+  "description": "Higher level dom event management",
   "version": "1.0.4",
+  "keywords": [
+    "event",
+    "events",
+    "subscriptions"
+  ],
   "dependencies": {
-    "event-component": "0.1.0",
-    "delegate-component": "0.1.0"
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-delegate": "git://github.com/npmcomponent/component-delegate.git"
   },
-  "component": {
-    "scripts": {
-      "events/index.js": "index.js"
-    }
-  }
+  "license": "MIT"
 }
